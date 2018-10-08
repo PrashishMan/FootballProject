@@ -1,0 +1,39 @@
+*{
+	padding; 0px;
+	margin: 0px;
+}
+
+.descriptionDiv{
+	background-color: #CACFD2;
+	width: 420px;
+	margin: 10% 30%;
+}
+
+.imageDiv{
+	
+	background-color: #BA4A00;
+	float: left;
+	border-radius : 100px;
+	margin-top: 20px;
+	margin-left: 10px;
+	padding: 2px
+	
+}
+
+.imageDiv > img{
+	border-radius : 100px;
+	width: 100px;
+	height:  100px;
+}
+
+.descriptionDiv{
+	float: left;
+	margin: 10px;
+}
+
+td{
+	padding: 10px;
+	padding-left: 40px;
+	font-size: 16px;
+	font-weight: bold;
+}

@@ -1,0 +1,127 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-color: $000000;
+}
+.title{
+	background-color: #5D6D7E;
+	text-align: center;
+	color: #F7F9F9;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	height: 100px;
+}
+
+.pageTitle{
+	padding: 10px;
+	font-size: 40pt;
+	height: 80px;
+	position:relative;
+	display: block;
+	text-align: center;
+	margin:botton: 10px;
+}
+
+
+.sockerBall{
+	height: 100px;
+	width: 100px;
+	position:relative;
+	margin: 10px;
+	display: block;
+	margin-left: 45%;
+}
+
+.stadiumCover{
+	margin-top: 30px;
+	width: 100%;
+	
+}
+
+
+h5{
+	font-size: 14px;
+	display: inline;
+	font-weight: bold;
+}
+
+.branchInfo{
+	text-align: center;
+	position: relative;
+	margin-top: 10%;
+	display: block;
+}
+
+.Container{
+	background-color: #5DADE2;
+	width: 100%;
+	margin-top: 20px;
+	padding: 15px;
+	float: left;
+}
+
+.Container > .content{
+	background-color: #F7F9F9;
+	width: 48.3%;
+	height: 310px;
+	border-radius: 20px;
+	float: left;
+	margin: 10px;
+	padding: 4px;
+}
+
+.Container > .content > .imageContainer{
+	background-color: #FBFCFC;
+	width: 46.5%;
+	height: 240px;
+	border-radius: 10px;
+	float: left;
+	margin: 10px;
+}
+
+.Container > .content > .infoContainer{
+	background-color: #AED6F1;
+	width: 46.5%;
+	height: 240px;
+	border-radius: 10px;
+	float: left;
+	margin: 10px;
+}
+
+.Container > .content > .infoContainer td{
+width: 70%;
+}
+
+.infoLabel{
+	color: #34495E;
+	font-weight: bold;
+}
+
+.Container > .content > .infoContainer > .infoTitle{
+		display: block;
+		background-color: #2471A3;
+		padding: 5px;
+		border-radius: 10px 10px 0 0;
+		text-align: center;
+		color: #F4F6F7;
+		font-size: 14px;
+		font-weight: bold;
+}
+
+
+
+.pageHeading{
+	display: block;
+	background: #2E4053;
+	color: #CDCDCD;
+	padding: 10px;
+	
+}
+/*___________________________________________ 
+ */
+ 

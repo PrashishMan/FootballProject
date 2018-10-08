@@ -1,0 +1,55 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.title{
+	background-color: #5D6D7E;
+	text-align: center;
+	color: #F7F9F9;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	height: 100px;
+}
+
+.subscriptionContainer, .subscriptionRemainderContainer, .subscriptionUnpaidContainer{
+	margin: 10px;
+	border: 4px solid #34495E;
+	margin-top: 20px;
+	display: block;
+}
+
+.subscriptionContainer::Before, .subscriptionRemainderContainer::Before, .subscriptionUnpaidContainer::before{
+	content: "Subscription Payment";
+	background:#34495E;
+	text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    color: #DCDCDC;
+    display: block;
+    padding: 20px;
+}
+table{
+		width: 100%;
+		text-align: center;
+	}
+	
+th{
+		margin: 20px;
+		border: 1px solid #DCDCDC;
+		text-align: center;
+		background: #34495E;
+		color: #DCDCDC ;
+	}
+
+
+.subscriptionRemainderContainer::Before{
+	content: "Subscription Due";
+	
+}
+
+.subscriptionUnpaidContainer::Before{
+	content: "Subscription Unpaid";
+	
+}
